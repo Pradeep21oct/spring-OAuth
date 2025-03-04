@@ -9,4 +9,8 @@ public class OAutheController {
     public String helloOAuth(){
         return "WelCome OAuth2";
     }
+    @GetMapping("login")
+    public String login(){
+        return "WelCome  OAuth2 login";
+    }
 }
